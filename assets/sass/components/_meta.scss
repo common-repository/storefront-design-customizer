@@ -1,0 +1,57 @@
+
+.comments-link a:before,
+.post-meta__time:before,
+.post-meta__author__link:before{
+  font-family: $font-ionicon;
+}
+
+.post-meta__author__link:before {
+  content: "\f213";
+}
+
+.post-meta__time:before {
+  content: "\f4be";
+}
+
+.comments-link a:before {
+  content: "\f3b2";
+}
+
+.comments-link a:before,
+.post-meta__author__link:before,
+.post-meta__time:before {
+    font-style: normal;
+    padding-right: .25em;
+    opacity: $meta-opacity;
+}
+
+
+.s__post--two__top .post-meta__category a,
+.post-meta__tag__item a {
+	margin: 0;
+  background-color: #efefef;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-bottom: 3px;
+  font-size: $meta-font-size;
+  min-width: 130px;
+  text-align: center;
+  margin-right: 6px;
+}
+
+.post-meta__author,
+.post-meta__author a,
+.post-meta__time,
+.post-meta .comments-link {
+    margin-bottom: .5em;
+    margin-right: .55em;
+    padding-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    font-style: italic;
+}
+
+.post-meta__author .author{margin-bottom:.5em;}
+
+.posted-on a{color:inherit;}

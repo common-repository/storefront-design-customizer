@@ -1,0 +1,22 @@
+.footer_copyright_text {
+    display: block;
+    text-align: center;
+}
+
+.footer-widgets{
+	border:none !important;
+
+	.widget {
+    	padding: 1em 1.5em;
+	}
+}
+
+.site-footer{
+	.sdc-social__link{
+	    text-align:center;
+	    display:block;
+	    &:before{
+			display:none;
+	    }
+	}
+}
